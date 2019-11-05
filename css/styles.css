@@ -16,7 +16,6 @@ body {
   position: absolute;
 }
 
-/* TOP NAV MENU */
 .nav-container {
   background-image: linear-gradient(to bottom, #626262 50%, #797979 50%);
   width: 985px;
@@ -29,13 +28,13 @@ body {
   z-index: 5;
 }
 
-#asideLinks li {
+#cards-links li {
   border: 1px solid white;
   list-style-type: none;
   width: 25%;
 }
 
-#rightBottomLinks li {
+#right-bottom-links li {
   list-style-type: none;
   margin-right: 3px;
   margin-left: 3px;
@@ -43,7 +42,7 @@ body {
   padding-right: 5px;
 }
 
-#crLinks li {
+#copyright li {
   list-style-type: none;
   margin-right: 3px;
   margin-left: 3px;
@@ -68,25 +67,25 @@ body {
   padding: 0;
 }
 
-#leftBottomText > a {
+#left-bottom-info > a {
   color: #08c;
   text-decoration: none;
 }
 
-#rightBottomLinks li:not(.noBorder) {
+#right-bottom-links li:not(.noBorder) {
   border-right: 1px solid #6e6e6e;
 }
 
-#rightBottomLinks li a {
+#right-bottom-links li a {
   color: #08c;
   text-decoration: none;
 }
 
-#crLinks li:not(.noBorder) {
+#copyright li:not(.noBorder) {
   border-right: 1px solid #6e6e6e;
 }
 
-#crLinks li a {
+#copyright li a {
   color: #08c;
   text-decoration: none;
 }
@@ -95,7 +94,6 @@ body {
   background-color: rgba(51, 51, 51, 0.521);
 }
 
-/* INSERT NAV MENU IMGS */
 .store,
 .mac,
 .iPod,
@@ -184,7 +182,6 @@ body {
   background: white;
 }
 
-/* BANNER IMAGE */
 section {
   width: 100vw;
   display: flex;
@@ -194,7 +191,7 @@ section {
   top: -145px;
 }
 
-.bannerImage {
+.hero-image {
   width: 1440px;
   height: 620px;
   background-image: url("/images/mountainHikers.jpg");
@@ -204,7 +201,6 @@ section {
   z-index: -5;
 }
 
-/* BANNER TEXT IMAGES */
 section header {
   width: 1440px;
   height: 838px;
@@ -215,51 +211,50 @@ section header {
   top: 100px;
 }
 
-#verseBe,
-#everyoneHas,
-#watchYourVerse {
+#top-title,
+#mid-title,
+#low-title {
   margin: auto;
   position: relative;
 }
 
-#verseBe {
+#top-title {
   width: 980px;
   height: 104px;
   background-image: url("/images/whatWillYourVerseBeLarge.png");
   top: -450px;
 }
 
-#everyoneHas {
+#mid-title {
   width: 980px;
   height: 82px;
   background-image: url("/images/everyoneHasSomethingLarge.png");
   top: -450px;
 }
 
-#watchYourVerse {
+#low-title {
   width: 980px;
   height: 34px;
   background-image: url("/images/watchYourVerseUnderline.png");
   top: -430px;
 }
 
-#watchYourVerse:hover {
+#low-title:hover {
   background-position-y: 96px;
   cursor: pointer;
 }
 
-/* ASIDE SECTION */
 aside {
   width: 1440px;
   margin: -280px auto auto auto;
 }
 
-#asideLinks {
+#cards-links {
   display: inline-flex;
   padding: 0;
 }
 
-#asideLinks img {
+#cards-links img {
   width: 100%;
   height: 100%;
 }
@@ -282,13 +277,13 @@ footer {
   margin: 10px auto auto auto;
 }
 
-.wrappingFooter,
-#rightBottomLinks,
-#theVeryBottom,
-#crLinks {
+.footer-container,
+#right-bottom-links,
+#bottom,
+#copyright {
   display: inline-flex;
 }
 
-.wrappingFooter {
+.footer-container {
   width: 100%;
 }
