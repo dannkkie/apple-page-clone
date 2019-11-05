@@ -159,7 +159,7 @@ body {
   height: 34px;
 }
 
-#searchInput {
+#search-input {
   position: absolute;
   top: 6px;
   left: 847px;
@@ -179,7 +179,7 @@ body {
   left: 850px;
 }
 
-#searchInput:focus {
+#search-input:focus {
   width: 115px;
   background: white;
 }
