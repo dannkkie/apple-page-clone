@@ -51,7 +51,7 @@ body {
 }
 
 #nav-links {
-  background-image: url("/images/navFilter.png");
+  background-image: url("/images/nav-surround.png");
   width: 980px;
   height: 36px;
   background-position-y: 50%;
@@ -103,7 +103,7 @@ body {
 .support {
   width: 100px;
   height: 34px;
-  background-image: url("/images/navBarMenuIcons.png");
+  background-image: url("/images/nav-bar-menu-icons.png");
   background-position-x: 50%;
 }
 
@@ -111,7 +111,7 @@ body {
   width: 100px;
   height: 34px;
   margin-left: 0;
-  background-image: url("/images/navBarMenuIcons.png");
+  background-image: url("/images/nav-bar-menu-icons.png");
   background-position-x: 42%;
   background-position-y: -1%;
   border-bottom-left-radius: 8px;
@@ -194,7 +194,7 @@ section {
 .hero-image {
   width: 1440px;
   height: 620px;
-  background-image: url("/images/mountainHikers.jpg");
+  background-image: url("/images/hero.jpg");
   background-position-y: bottom;
   position: relative;
   top: 0;
@@ -221,21 +221,21 @@ section header {
 #top-title {
   width: 980px;
   height: 104px;
-  background-image: url("/images/whatWillYourVerseBeLarge.png");
+  background-image: url("/images/what-will-your-verse-be.png");
   top: -450px;
 }
 
 #mid-title {
   width: 980px;
   height: 82px;
-  background-image: url("/images/everyoneHasSomethingLarge.png");
+  background-image: url("/images/everyone-has-something.png");
   top: -450px;
 }
 
 #low-title {
   width: 980px;
   height: 34px;
-  background-image: url("/images/watchYourVerseUnderline.png");
+  background-image: url("/images/watch-your-verse.png");
   top: -430px;
 }
 
@@ -258,8 +258,6 @@ aside {
   width: 100%;
   height: 100%;
 }
-
-/* FOOTER INFO */
 
 footer {
   width: 1000px;
