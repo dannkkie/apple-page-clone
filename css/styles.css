@@ -118,8 +118,8 @@ section {
 
 .hero-image {
   width: 1440px;
-  height: 670px;
-  background-image: url("/images/hero.jpg");
+  height: 640px;
+  background-image: url("../images/hero.jpg");
   background-position-y: bottom;
   position: relative;
   top: 0;
@@ -128,7 +128,6 @@ section {
 
 section header {
   width: 1440px;
-  height: 860px;
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -172,6 +171,7 @@ section header {
 aside {
   width: 1440px;
   margin: -280px auto auto auto;
+  z-index: 999;
 }
 
 #cards-links {
@@ -323,4 +323,9 @@ form div input {
   left: 18px;
   width: 15px;
   height: 14px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
 }
